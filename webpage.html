@@ -1,0 +1,43 @@
+<html>
+    <meta charset="utf-8"/>
+    <header>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript" src="utilities/utilities.js" async></script>
+        <script type="text/javascript" src="webpage.js" async></script>
+    </header>
+    <body>
+        <div class="main">
+            <h1>Cutomer Form</h1>
+            <div class="formContext">
+                <div>
+                    <div>
+                        <p><label for="customerName" >Name</label></p>
+                        <input id="customerName" class="inputField" />
+                    </div>
+                    <div>
+                        <p><label for="customerAddress" >Address</label></p>
+                        <textarea id="customerAddress" rows="5" cols="50" class="inputField" ></textarea>
+                    </div>
+                    <div>
+                        <p><label for="customerPhone" >Phone</label></p>
+                        <input id="customerPhone" class="inputField" />
+                    </div>
+                    <div>
+                        <p><label for="customerCountry" >Country</label></p>
+                        <input id="customerCountry" class="inputField" />
+                    </div>
+                </div>
+                <div class="buttonSection">
+                    <button id="submitButton" onclick="handleSubmit()" >Submit</button>
+                    <button id="searchButton" onclick="handleSearch()" >Search</button>
+                </div>
+            </div>
+            <div id="resultSection">
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Created by Joseph Stevens</p>
+    </footer>
+</html>

@@ -1,0 +1,48 @@
+h1 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formContext {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonSection {
+    padding-top: 20px;
+}
+
+#resultSection {
+    padding-top: 20px;
+}
+
+.success {
+    height: auto;
+    width: auto;
+    background-color: rgb(156, 197, 74);
+}
+
+.error {
+    height: auto;
+    width: auto;
+    background-color: rgb(228, 86, 86);
+}
+
+table {
+    width: 100%
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
